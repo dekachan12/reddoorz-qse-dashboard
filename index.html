@@ -20,7 +20,7 @@
         <div class="login-icon">🔴</div>
         <div class="login-brand-text">
           <h1>RedDoorz QSE</h1>
-          <p>Area West · Medan, Sumatera Utara</p>
+          <p>Quality · Safety · Environment · Indonesia</p>
         </div>
       </div>
       <div class="login-divider"></div>
@@ -46,10 +46,8 @@
 
 <!-- APP -->
 <div id="app-screen" class="hidden">
-
-  <!-- TOPBAR -->
   <header class="topbar">
-    <button id="menu-toggle" aria-label="Menu">☰</button>
+    <button id="menu-toggle">☰</button>
     <div class="topbar-brand">
       <div class="brand-icon">🔴</div>
       <span>RedDoorz QSE Dashboard</span>
@@ -66,41 +64,28 @@
   <div id="sidebar-overlay"></div>
 
   <div class="app-body">
-
-    <!-- SIDEBAR -->
     <nav id="sidebar">
-      <div class="nav-group-label">Navigasi</div>
+      <div class="nav-group-label">Overview</div>
+      <a class="nav-link" data-page="dashboard"><span class="nav-icon">📊</span>Dashboard</a>
+      <a class="nav-link" data-page="regional"><span class="nav-icon">🗺️</span>Regional</a>
 
-      <a class="nav-link" data-page="dashboard">
-        <span class="nav-icon">📊</span>Dashboard
-      </a>
-      <a class="nav-link" data-page="pettycash">
-        <span class="nav-icon">💰</span>Petty Cash
-      </a>
-      <a class="nav-link" data-page="linen">
-        <span class="nav-icon">🛏️</span>Inventory Linen
-      </a>
-      <a class="nav-link" data-page="inventory">
-        <span class="nav-icon">📦</span>Inventory Umum
-      </a>
-      <a class="nav-link" data-page="improvement">
-        <span class="nav-icon">📈</span>Improvement
-      </a>
+      <div class="nav-group-label">Properti</div>
+      <a class="nav-link" data-page="properties"><span class="nav-icon">🏨</span>Manajemen Properti</a>
+
+      <div class="nav-group-label">Operasional</div>
+      <a class="nav-link" data-page="pettycash"><span class="nav-icon">💰</span>Petty Cash</a>
+      <a class="nav-link" data-page="linen"><span class="nav-icon">🛏️</span>Inventory Linen</a>
+      <a class="nav-link" data-page="inventory"><span class="nav-icon">📦</span>Inventory Umum</a>
+      <a class="nav-link" data-page="improvement"><span class="nav-icon">📈</span>Improvement</a>
 
       <div class="sidebar-footer">
-        <div class="sidebar-version">
-          © 2026 RedDoorz QSE<br>Area West · Medan
-        </div>
+        <div class="sidebar-version">© 2026 RedDoorz QSE<br>127 Properties · Indonesia</div>
       </div>
     </nav>
 
-    <!-- CONTENT -->
     <main id="main-content">
       <div id="page-content">
-        <div class="loading-spinner">
-          <div class="spinner"></div>
-          <p>Memuat dashboard...</p>
-        </div>
+        <div class="loading-spinner"><div class="spinner"></div><p>Memuat dashboard...</p></div>
       </div>
     </main>
   </div>
@@ -129,6 +114,8 @@
 <script src="js/linen.js"></script>
 <script src="js/inventory.js"></script>
 <script src="js/improvement.js"></script>
+<script src="js/properties.js"></script>
+<script src="js/regional.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

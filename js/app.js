@@ -127,6 +127,8 @@ const App = {
       linen: () => window.LinenModule?.render(),
       inventory: () => window.InventoryModule?.render(),
       improvement: () => window.ImprovementModule?.render(),
+      properties: () => window.PropertiesModule?.render(),
+      regional: () => window.RegionalModule?.render(),
     };
 
     setTimeout(() => {
