@@ -5,7 +5,7 @@
 // =====================================================
 
 const SUPABASE_URL = 'https://https://pszwjxnrowtduwiqedup.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzendqeG5yb3d0ZHV3aXFlZHVwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIyNTM5MDEsImV4cCI6MjA5NzgyOTkwMX0.XceC0XFnTwx39OgxhqKMLQfI5zdkasLv_bfqg5eeZfA';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzendqeG5yb3d0ZHV3aXFlZHVwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIyNTM5MDEsImV4cCI6MjA5NzgyOTkwMX0.XceC0XFnTwx39OgxhqKMLQfI5zdkasLv_bfqg5eeZfA;
 
 // Inisialisasi Supabase client
 const { createClient } = supabase;
