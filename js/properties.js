@@ -30,7 +30,7 @@ const PropertiesModule = {
             </select>
             <select class="select-sm" id="prop-filter-brand" onchange="PropertiesModule.renderTable()">
               <option value="">Semua Brand</option>
-              ${['RedDoorz','Sans Hotel','Zo Rooms','Nite Jolie'].map(b=>`<option>${b}</option>`).join('')}
+              ${['RedDoorz','Sans Hotel','Urbanview','Lavana','Sunerra'].map(b=>`<option>${b}</option>`).join('')}
             </select>
             <select class="select-sm" id="prop-filter-status" onchange="PropertiesModule.renderTable()">
               <option value="">Semua Status</option>
@@ -133,7 +133,7 @@ const PropertiesModule = {
       <div class="form-grid">
         <div class="form-group"><label class="form-label">Kode Properti *</label><input type="text" id="pf-code" class="form-control" placeholder="RDZ-MDN-001" value="${p.code||''}"></div>
         <div class="form-group"><label class="form-label">Brand *</label>
-          <select id="pf-brand" class="form-control">${['RedDoorz','Sans Hotel','Zo Rooms','Nite Jolie'].map(b=>`<option ${p.brand===b?'selected':''}>${b}</option>`).join('')}</select></div>
+          <select id="pf-brand" class="form-control">${['RedDoorz','Sans Hotel','Urbanview','Lavana','Sunerra'].map(b=>`<option ${p.brand===b?'selected':''}>${b}</option>`).join('')}</select></div>
         <div class="form-group form-full"><label class="form-label">Nama Properti *</label><input type="text" id="pf-name" class="form-control" placeholder="e.g. RedDoorz Medan Petisah" value="${p.name||''}"></div>
         <div class="form-group"><label class="form-label">Kota *</label><input type="text" id="pf-city" class="form-control" placeholder="Medan" value="${p.city||''}"></div>
         <div class="form-group"><label class="form-label">Provinsi *</label><input type="text" id="pf-province" class="form-control" placeholder="Sumatera Utara" value="${p.province||''}"></div>

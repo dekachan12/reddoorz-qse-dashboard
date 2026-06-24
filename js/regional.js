@@ -105,7 +105,7 @@ const RegionalModule = {
     });
 
     // Brand donut
-    const brands = ['RedDoorz','Sans Hotel','Zo Rooms','Nite Jolie'];
+    const brands = ['RedDoorz','Sans Hotel','Urbanview','Lavana','Sunerra'];
     const brandCount = brands.map(b => this.props.filter(p => p.brand === b).length);
     const ctx2 = document.getElementById('chart-brand')?.getContext('2d');
     if (ctx2) App.charts.brand = new Chart(ctx2, {
@@ -113,7 +113,7 @@ const RegionalModule = {
       data: {
         labels: brands,
         datasets:[{ data: brandCount,
-          backgroundColor:['#E31837','#3B82F6','#22C55E','#F59E0B'],
+          backgroundColor:['#E31837','#3B82F6','#8B5CF6','#F59E0B','#10B981'],
           borderWidth:0, hoverOffset:8 }]
       },
       options:{ responsive:true, maintainAspectRatio:false, cutout:'65%',
