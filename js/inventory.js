@@ -5,6 +5,8 @@
 const InventoryModule = {
   data: [],
 
+  properties: [],
+
   async render() {
     const content = document.getElementById('page-content');
     content.innerHTML = `
