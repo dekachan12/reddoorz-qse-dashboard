@@ -141,6 +141,7 @@ const App = {
       linen:       () => window.LinenModule?.render(),
       inventory:   () => window.InventoryModule?.render(),
       improvement: () => window.ImprovementModule?.render(),
+      inspection:  () => window.InspectionModule?.render(),
       properties:  () => window.PropertiesModule?.render(),
       regional:    () => window.RegionalModule?.render(),
     };
