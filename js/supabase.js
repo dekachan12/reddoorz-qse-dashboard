@@ -4,9 +4,8 @@
 // dengan credentials dari project Supabase Anda
 // =====================================================
 
-const SUPABASE_URL = 'https://YOUR_PROJECT_ID.supabase.co';
-const SUPABASE_ANON_KEY = 'YOUR_ANON_KEY';
-
+const SUPABASE_URL = 'https://pszwjxnrowtduwiqedup.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzendqeG5yb3d0ZHV3aXFlZHVwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIyNTM5MDEsImV4cCI6MjA5NzgyOTkwMX0.XceC0XFnTwx39OgxhqKMLQfI5zdkasLv_bfqg5eeZfA';
 // Inisialisasi Supabase client
 const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
